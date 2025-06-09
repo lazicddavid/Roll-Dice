@@ -1,14 +1,21 @@
-.container {
+body {
+  /* margin: 0;
+  padding: 0;
+  height: 100vh;*/
   box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 h1 {
-  font-size: 3rems;
+  font-size: 3rem;
   font-family: sans-serif;
   font-weight: 700;
 }
 
 .btn {
+  margin: 230px 0;
   width: 170px;
   height: 70px;
   border-radius: 15px;
@@ -21,4 +28,9 @@ h1 {
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.53);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.53);
   cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(64, 151, 226);
+  color: black;
 }
