@@ -5,6 +5,7 @@
 // kad kliknem roll , izgenerisem random broj
 
 const taster = document.getElementById("roll");
+const slika = document.getElementById("prikaz");
 function prikaziRandomSliku() {
   const slike = [
     "./slika1.jpg",
