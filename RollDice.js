@@ -41,6 +41,5 @@ taster.addEventListener("click", prikaziRandomSliku);
 //trebace ti funkcije: createElement i appendChild. Moze se iskoristiti innerHTML
 //
 //obrati paznju da ovo isto uradis i na Restart
-const = createImage
-function ()
-let = list 
+
+let totalscore = 0;
