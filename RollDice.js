@@ -42,3 +42,4 @@ taster.addEventListener("click", prikaziRandomSliku);
 //
 //obrati paznju da ovo isto uradis i na Restart
 const = createImage
+function ()
