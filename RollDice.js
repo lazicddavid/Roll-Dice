@@ -27,6 +27,7 @@ function ()
 
 addEventListener ()
 <list></list>
+<ul></ul>
 //napravi jednu varijablu koja se zove totalscore
 // pocinje sa nulom
 // i svaki roll dodaje na taj broj izrolani broj
