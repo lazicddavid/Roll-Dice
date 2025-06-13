@@ -26,6 +26,7 @@ taster.addEventListener("click", prikaziRandomSliku);
 function ()
 
 addEventListener ()
+<list></list>
 //napravi jednu varijablu koja se zove totalscore
 // pocinje sa nulom
 // i svaki roll dodaje na taj broj izrolani broj
