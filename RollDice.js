@@ -6,6 +6,10 @@
 
 const taster = document.getElementById("roll");
 const slika = document.getElementById("prikaz");
+const rezultat = document.getElementById("rezultat");
+const restartBtn = document.getElementById("restart");
+
+let totalscore = 0;
 
 const slike = [
   "./slika1.jpg",
@@ -17,17 +21,27 @@ const slike = [
 ];
 
 function prikaziRandomSliku() {
-  totalscore += broj;
-
   const index = Math.floor(Math.random() * slike.length);
+  const broj = index + 1;
+
   slika.src = slike[index];
+
+  if (broj === 1) {
+    totalscore = 0;
+  } else {
+    totalscore += broj;
+  }
+
+  rezultat.textContent = `Ukupan skor: ${totalscore}`;
 }
 
 taster.addEventListener("click", prikaziRandomSliku);
 
-let totalscore = 0;
-
-const broj = index + 1;
+restartBtn.addEventListener("click", function () {
+  totalscore = 0;
+  slika.src = "";
+  rezultat.textContent = "Ukupan skor: 0";
+});
 
 //napravi jednu varijablu koja se zove totalscore
 // pocinje sa nulom
