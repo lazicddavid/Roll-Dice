@@ -25,6 +25,8 @@ taster.addEventListener("click", prikaziRandomSliku);
 
 let totalscore = 0;
 
+const broj = index + 1;
+
 //napravi jednu varijablu koja se zove totalscore
 // pocinje sa nulom
 // i svaki roll dodaje na taj broj izrolani broj
