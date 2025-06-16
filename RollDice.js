@@ -17,6 +17,8 @@ const slike = [
 ];
 
 function prikaziRandomSliku() {
+  totalscore += broj;
+
   const index = Math.floor(Math.random() * slike.length);
   slika.src = slike[index];
 }
