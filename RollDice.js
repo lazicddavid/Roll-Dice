@@ -23,6 +23,8 @@ function prikaziRandomSliku() {
 
 taster.addEventListener("click", prikaziRandomSliku);
 
+let totalscore = 0;
+
 //napravi jednu varijablu koja se zove totalscore
 // pocinje sa nulom
 // i svaki roll dodaje na taj broj izrolani broj
@@ -41,8 +43,3 @@ taster.addEventListener("click", prikaziRandomSliku);
 //trebace ti funkcije: createElement i appendChild. Moze se iskoristiti innerHTML
 //
 //obrati paznju da ovo isto uradis i na Restart
-
-let totalscore = 0;
-let score = 0; 
-function ()
-let getElementById
