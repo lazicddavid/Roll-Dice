@@ -36,4 +36,8 @@ h1 {
 }
 
 #rezultat {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  color: #333;
+  font-weight: bold;
 }
