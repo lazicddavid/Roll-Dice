@@ -42,13 +42,6 @@ img {
   color: black;
 }
 
-#rezultat {
-  font-size: 1.5rem;
-  margin-top: 20px;
-  color: #333;
-  font-weight: bold;
-}
-
 #restart {
   height: 40px;
   background-color: #f44336;
@@ -73,4 +66,11 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+#rezultat {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  color: #333;
+  font-weight: bold;
 }
