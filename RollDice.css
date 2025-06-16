@@ -14,8 +14,15 @@ h1 {
   font-weight: 700;
 }
 
+img {
+  width: 150px;
+  height: 150px;
+
+  margin-bottom: 20px;
+}
+
 .btn {
-  margin: 230px 0;
+  margin: 100px 0;
   width: 170px;
   height: 70px;
   border-radius: 15px;
