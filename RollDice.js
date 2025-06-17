@@ -77,3 +77,5 @@ totalscore;
 restartBtn;
 
 function()
+
+list
