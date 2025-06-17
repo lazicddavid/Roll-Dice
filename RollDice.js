@@ -71,3 +71,5 @@ restartBtn.addEventListener("click", function () {
   rezultat.textContent = "Ukupan skor: 0";
   lista.innerHTML = "";
 });
+
+totalscore;
