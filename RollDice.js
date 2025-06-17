@@ -73,3 +73,5 @@ restartBtn.addEventListener("click", function () {
 });
 
 totalscore;
+
+restartBtn;
