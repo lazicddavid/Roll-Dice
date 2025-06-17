@@ -72,10 +72,4 @@ restartBtn.addEventListener("click", function () {
   lista.innerHTML = "";
 });
 
-totalscore;
-
-restartBtn;
-
-function()
-
-list
+textContent;
